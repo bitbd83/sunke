@@ -1,11 +1,11 @@
 :root {
-  --red: #ff5555;
+  --red: #f92934;
   --white: white;
   --black: black;
 }
 
 .section_hero {
-  background-color: #ff7475;
+  background-color: #ffc936;
   background-position: 50%;
   background-size: 350px;
   background-attachment: fixed;
@@ -33,6 +33,13 @@
   inset: auto auto 0%;
 }
 
+.hero_wel {
+  height: 60%;
+  position: absolute;
+  inset: auto auto 0%;
+  top: 0px;
+}
+
 .header {
   z-index: 50;
   justify-content: space-between;
@@ -55,8 +62,8 @@
 }
 
 .continue {
-  color: #010101;
-  background-color: #FF4847;
+  color: #fffdf7;
+  background-color: #d71925;
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -64,13 +71,13 @@
   height: 50px;
   padding: 3px 50px 0;
   font-family: Nove, sans-serif;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 28px;
+  line-height: 28px;
   display: flex;
 }
 
 .button_hero {
-  background-color: #ff5353;
+  background-color: #f2242f;
   border: 2px solid #010000;
   border-bottom: 5px solid #010000;
   border-radius: 100px;
@@ -96,7 +103,7 @@
 }
 
 .title_red {
-  color: #dd4242;
+  color: #ffe500;
   font-weight: 600;
 }
 
@@ -115,7 +122,6 @@
 }
 
 .hero_bottom {
-  background-image: url('../images/hero_bottom.svg');
   background-position: 50% 100%;
   background-size: auto 100%;
   width: 150vw;
@@ -126,7 +132,7 @@
 
 .section_about {
   z-index: 20;
-  background-color: #ff5b5c;
+  background-color: #f2242f;
   background-position: 50%;
   background-size: 350px;
   background-attachment: fixed;
@@ -142,17 +148,14 @@
 }
 
 .separator_1 {
-  background-color: #ff5555;
+  background-color: #f92934;
   width: 100%;
   height: 25px;
   position: relative;
 }
 
 .block_h1_about {
-  background-color: #ff5655;
-  border: 2px solid #010000;
-  border-top: 10px solid #242426;
-  border-bottom: 10px solid #242426;
+  background-color: #f1242f;
   width: 100%;
   height: 150px;
   padding-top: 15px;
@@ -161,7 +164,7 @@
 }
 
 .block_h1_in {
-  background-color: #FF4847;
+  background-color: #d71925;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -171,22 +174,22 @@
 }
 
 .h1 {
-  color: #010101;
+  color: #fffdf7;
   font-family: Nove, sans-serif;
   font-size: 90px;
   line-height: 90px;
 }
 
 .hider {
-  background-color: #ff5555;
+  background-color: #f92934;
   height: 50px;
   position: absolute;
   inset: 0% 0% auto;
 }
 
 .about_details {
-  background-color: #fff6f6;
-  border: 10px #242426;
+  background-color: #d91924;
+  border: 10px #f0242f;
   border-radius: 20px;
   flex-flow: column;
   justify-content: center;
@@ -198,7 +201,7 @@
 }
 
 .para {
-  color: #010101;
+  color: #fffdf7;
   margin-bottom: 0;
   font-family: Nanum Gothic Coding, sans-serif;
   font-size: 22px;
@@ -239,7 +242,6 @@
 }
 
 .title_transition {
-  background-image: url('../images/hero_bottom.svg');
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -249,7 +251,7 @@
 }
 
 .block_about {
-  background-color: #242426;
+  background-color: #f0242f;
   border: 2px solid #010000;
   border-bottom: 8px solid #010000;
   border-radius: 20px;
@@ -272,7 +274,7 @@
 
 .section_tokenomics {
   z-index: 10;
-  background-color: #181818;
+  background-color: #d71925;
   //background-image: linear-gradient(#9e002aba, #9e002aba), url('../images/bg-wave_red.png');
   background-position: 0 0, 50%;
   background-size: auto, 350px;
@@ -310,8 +312,8 @@
 }
 
 .tokenomics_details {
-  background-color: #ff6869;
-  border: 2px solid #f44f51;
+  background-color: #ffba00;
+  border: 2px solid #ffca3b;
   border-bottom-width: 6px;
   border-radius: 8px;
   align-items: center;
@@ -365,7 +367,7 @@
 
 .section_how {
   z-index: 40;
-  background-color: #232325;
+  background-color: #f2242f;
   background-position: 50%;
   background-size: 350px;
   background-attachment: fixed;
@@ -388,7 +390,7 @@
 }
 
 .how_block {
-  background-color: #242426;
+  background-color: #bf1b24;
   border: 2px solid #010000;
   border-bottom-width: 8px;
   border-radius: 20px;
@@ -403,7 +405,7 @@
 }
 
 .how_title {
-  background-color: #242426;
+  background-color: #bf1b24;
   border: 2px solid #010000;
   border-bottom: 6px solid #010000;
   border-radius: 15px;
@@ -424,7 +426,7 @@
 }
 
 .how_in {
-  background-color: #fff6f6;
+  background-color: #d91924;
   border: 2px solid #010000;
   border-bottom: 5px solid #010000;
   border-radius: 20px;
@@ -437,7 +439,7 @@
 }
 
 .para-2 {
-  color: #010101;
+  color: #fffdf7;
   text-align: justify;
   margin-bottom: 0;
   font-family: Nanum Gothic Coding, sans-serif;
@@ -451,7 +453,7 @@
 .how_title_in {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  background-color: #ff5555;
+  background-color: #f92934;
   border-radius: 15px;
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
@@ -474,7 +476,6 @@
 
 .title_transition_money {
   z-index: 20;
-  background-image: url('../images/hero_bottom.svg');
   background-position: 50% 100%;
   background-repeat: repeat-x;
   background-size: auto 100%;
@@ -503,7 +504,7 @@
 }
 
 .section_join {
-  background-color: #ff6869;
+  background-color: #f2242f;
   background-position: 50%;
   background-size: 350px;
   background-attachment: fixed;
@@ -577,7 +578,7 @@
 }
 
 .div-block-2 {
-  background-color: #242426;
+  background-color: #f0242f;
   border: 2px solid #010000;
   border-bottom: 8px solid #010000;
   border-radius: 100px;
@@ -588,7 +589,7 @@
 }
 
 .div-block-3 {
-  background-color: #FF4847;
+  background-color: #d71925;
   border-radius: 100px;
   justify-content: center;
   align-items: center;
@@ -600,7 +601,7 @@
 }
 
 .social_footer {
-  background-color: #ff5555;
+  background-color: #f92934;
   background-image: url('../images/telegram.svg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -627,9 +628,33 @@
   position: static;
 }
 
-.social_footer.dex {
+.social_footer.dext {
   background-image: url('../images/dextools.svg');
   background-size: 65%;
+  position: static;
+}
+
+.social_footer.dexs {
+  background-image: url('../images/dexs.svg');
+  background-size: 100%;
+  position: static;
+}
+
+.social_footer.tronscan {
+  background-image: url('../images/tronscan.svg');
+  background-size: 100%;
+  position: static;
+}
+
+.social_footer.sun {
+  background-image: url('../images/sunswap.svg');
+  background-size: 110%;
+  position: static;
+}
+
+.social_footer.bullx {
+  background-image: url('../images/bullx.svg');
+  background-size: 110%;
   position: static;
 }
 
@@ -649,14 +674,14 @@
 }
 
 .ca {
-  color: ##FFFDF7;
+  color: #FFFDF7;
   text-align: center;
   font-family: Nanum Gothic Coding, sans-serif;
   font-size: 20px;
 }
 
 .copy {
-  background-color: #ff5555;
+  background-color: #f92934;
   background-image: url('../images/copy.svg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -682,9 +707,21 @@
   background-size: 110%;
 }
 
-.copy.dex {
+.copy.dext {
   background-image: url('../images/dextools.svg');
   background-size: 65%;
+}
+
+.copy.dexs {
+  background-image: url('../images/dexs.svg');
+  background-size: 65%;
+  position: static;
+}
+
+.copy.tronscan {
+  background-image: url('../images/tronscan.svg');
+  background-size: 65%;
+  position: static;
 }
 
 .copy.sun {
@@ -693,7 +730,7 @@
 }
 
 .hero_tg {
-  background-color: #ff5555;
+  background-color: #f92934;
   background-image: url('../images/telegram.svg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -718,9 +755,21 @@
   background-size: 110%;
 }
 
-.hero_tg.dex {
+.hero_tg.dext {
   background-image: url('../images/dextools.svg');
   background-size: 65%;
+}
+
+.hero_tg.dexs {
+  background-image: url('../images/dexs.svg');
+  background-size: 65%;
+  position: static;
+}
+
+.hero_tg.tronscan {
+  background-image: url('../images/tronscan.svg');
+  background-size: 65%;
+  position: static;
 }
 
 .hero_tg.sun {
@@ -729,7 +778,7 @@
 }
 
 .hero_x {
-  background-color: #ff5555;
+  background-color: #f92934;
   background-image: url('../images/twitter.svg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -754,9 +803,21 @@
   background-size: 110%;
 }
 
-.hero_x.dex {
+.hero_x.dext {
   background-image: url('../images/dextools.svg');
   background-size: 65%;
+}
+
+.hero_x.dexs {
+  background-image: url('../images/dexs.svg');
+  background-size: 65%;
+  position: static;
+}
+
+.hero_x.tronscan {
+  background-image: url('../images/tronscan.svg');
+  background-size: 65%;
+  position: static;
 }
 
 .hero_x.sun {
@@ -765,7 +826,7 @@
 }
 
 .ca_mobile {
-  color: ##FFFDF7;
+  color: #FFFDF7;
   text-align: center;
   font-family: Nanum Gothic Coding, sans-serif;
   font-size: 20px;
@@ -774,9 +835,13 @@
 
 .section_welcome {
   z-index: 1500;
-  background-color: #ff7475;
+  background-image: url('../images/rays.svg');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-color: #ffc936;
   flex-flow: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   display: flex;
   position: fixed;
@@ -786,15 +851,16 @@
 .title_welcome {
   font-family: Nove, sans-serif;
   font-size: 180px;
-  line-height: 150px;
+  line-height: 180px;
 }
 
 .button_continue {
-  background-color: #ff5353;
+  background-color: #f2242f;
   border: 2px solid #010000;
   border-bottom: 5px solid #010000;
   border-radius: 100px;
   padding: 5px;
+  margin: 8px;
 }
 
 .button_continue:hover {
@@ -804,6 +870,10 @@
 
 @media screen and (max-width: 991px) {
   .hero_chara {
+    height: 65%;
+  }
+
+  .hero_wel {
     height: 65%;
   }
 
@@ -923,7 +993,12 @@
 
 @media screen and (max-width: 479px) {
   .hero_chara {
-    width: 90%;
+    width: 100%;
+    height: auto;
+  }
+
+  .hero_wel {
+    width: 100%;
     height: auto;
   }
 

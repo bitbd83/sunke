@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     event.preventDefault(); // prevent any default action of the anchor tag
 
     // Create an audio element
-    var audio = new Audio("/music.mp3");
+    var audio = new Audio("music.mp3");
 
     // Enable looping for the audio, if desired
     audio.loop = true;
